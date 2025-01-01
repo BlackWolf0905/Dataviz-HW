@@ -1,10 +1,8 @@
-# README
-
-## Trigonometric Plot Visualization
+# Trigonometric Plot Visualization
 
 This project demonstrates a simple visualization of trigonometric functions (`sin(x)`, `cos(x)`, and their product) using Python and Matplotlib.
 
-### Description
+## Description
 The script generates a plot that includes:
 
 1. **Three curves:**
@@ -13,18 +11,18 @@ The script generates a plot that includes:
    - `sin(x) * cos(x)` in green (dash-dotted line)
 2. A shaded area between `sin(x)` and `cos(x)` to visualize the difference between these two functions, with a purple color and 20% opacity.
 
-### Features
+## Features
 - Customizable line styles, colors, and widths for better visualization.
 - A grid overlay for improved readability.
 - Legends, labels, and a title for better understanding of the graph.
 
-### Requirements
+## Requirements
 
 - Python 3.x
 - Matplotlib
 - NumPy
 
-### Installation
+## Installation
 1. Install Python from [python.org](https://www.python.org/).
 2. Install the required libraries using pip:
 
@@ -32,7 +30,7 @@ The script generates a plot that includes:
    pip install matplotlib numpy
    ```
 
-### Usage
+## Usage
 1. Save the script as `trig_plot.py`.
 2. Run the script:
 
@@ -41,20 +39,12 @@ The script generates a plot that includes:
    ```
 3. A window displaying the plot will appear.
 
-### Output
+## Output
 The plot includes:
 - `sin(x)` curve in blue.
 - `cos(x)` curve in red.
 - `sin(x) * cos(x)` curve in green.
 - A purple shaded area representing the space between the `sin(x)` and `cos(x)` curves.
-
-### Example
-Below is a preview of the generated plot:
-
-![Example Plot](#)
-
-### License
-This project is open-source and available under the MIT License.
 
 ---
 Feel free to modify the code for your own needs!
